@@ -1,0 +1,17 @@
+<html>
+	<head> 
+		<title> My test </title>
+	</head>
+
+	<body>
+		<h1> Hello, World </h1>
+		<% for(post in posts){ %>
+			<h2><%= posts[post].id %></h2>
+			<h2><%= posts[post].author %></h2>
+			<h2><%= posts[post].title %></h2>
+		<% }%>
+
+		<a href= "\post"> </a>
+	</body>
+
+</html>
